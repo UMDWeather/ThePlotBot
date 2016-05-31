@@ -1,0 +1,775 @@
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 84, in <module>
+    plt.savefig(plotDir+'/'+timestamp.strftime('%Y%m%d_%H%M')+'_'+dtype+'_'+d+'.png',bbox_inches='tight',pad_inches=0)
+NameError: name 'plotDir' is not defined
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 84, in <module>
+    plt.savefig(plotDir+'/'+timestamp.strftime('%Y%m%d_%H%M')+'_'+dtype+'_'+d+'.png',bbox_inches='tight',pad_inches=0)
+NameError: name 'plotDir' is not defined
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 84, in <module>
+    plt.savefig(plotDir+'/'+timestamp.strftime('%Y%m%d_%H%M')+'_'+dtype+'_'+d+'.png',bbox_inches='tight',pad_inches=0)
+NameError: name 'plotDir' is not defined
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 84, in <module>
+    plt.savefig(plotDir+'/'+timestamp.strftime('%Y%m%d_%H%M')+'_'+dtype+'_'+d+'.png',bbox_inches='tight',pad_inches=0)
+NameError: name 'plotDir' is not defined
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 84, in <module>
+    plt.savefig(plotDir+'/'+timestamp.strftime('%Y%m%d_%H%M')+'_'+dtype+'_'+d+'.png',bbox_inches='tight',pad_inches=0)
+NameError: name 'plotDir' is not defined
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 44, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 44, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 44, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 85, in <module>
+    plt.savefig(plotDir+'/'+timestamp.strftime('%Y%m%d_%H%M')+'_'+dtype+'_'+d+'.png',bbox_inches='tight',pad_inches=0)
+NameError: name 'plotDir' is not defined
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 44, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 42, in <module>
+    os.makedirs(plotDir)
+  File "/usr/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 17] File exists: '/var/www/html/products//sat/GOES-15/20160531'
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/grib2/HRRR/plot.py", line 20, in <module>
+    time.sleep(120) # wait two minutes for GRIB2 file to fully populate
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/radar/N0Z/plot.py", line 36, in <module>
+    f = Level3File(filename)
+  File "/usr/lib64/python2.7/site-packages/metpy/io/nexrad.py", line 1488, in __init__
+    assert self._buffer.check_remains(self.header.msg_len - self.header_fmt.size)
+AssertionError
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/radar/N0Z/plot.py", line 36, in <module>
+    f = Level3File(filename)
+  File "/usr/lib64/python2.7/site-packages/metpy/io/nexrad.py", line 1488, in __init__
+    assert self._buffer.check_remains(self.header.msg_len - self.header_fmt.size)
+AssertionError
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/radar/N0Z/plot.py", line 57, in <module>
+    plt.savefig(plotDir+'/'+timestamp.strftime('%Y%m%d_%H%M')+'_'+dtype+'.png',bbox_inches='tight',pad_inches=0)
+NameError: name 'plotDir' is not defined
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/radar/N0Z/plot.py", line 39, in <module>
+    f = Level3File(filename)
+  File "/usr/lib64/python2.7/site-packages/metpy/io/nexrad.py", line 1488, in __init__
+    assert self._buffer.check_remains(self.header.msg_len - self.header_fmt.size)
+AssertionError
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/radar/N0Z/plot.py", line 40, in <module>
+    f = Level3File(filename)
+  File "/usr/lib64/python2.7/site-packages/metpy/io/nexrad.py", line 1488, in __init__
+    assert self._buffer.check_remains(self.header.msg_len - self.header_fmt.size)
+AssertionError
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+/var/www/html/products//LWX/20160530
+/var/www/html/products//LWX/20160531
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/radar/N0Z/plot.py", line 41, in <module>
+    f = Level3File(filename)
+  File "/usr/lib64/python2.7/site-packages/metpy/io/nexrad.py", line 1488, in __init__
+    assert self._buffer.check_remains(self.header.msg_len - self.header_fmt.size)
+AssertionError
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+/var/www/html/products//radar/LWX/20160530
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 55, in <module>
+    data_var = gini_ds.variables[var[dtype]]
+KeyError: 'SOUND-VIS'
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 55, in <module>
+    data_var = gini_ds.variables[var[dtype]]
+KeyErrorTraceback (most recent call last):
+:   File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 55, in <module>
+'SOUND-6.51'
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 55, in <module>
+Traceback (most recent call last):
+    data_var = gini_ds.variables[var[dtype]]
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 55, in <module>
+    data_var = gini_ds.variables[var[dtype]]
+KeyError: 'SOUND-3.98'
+    data_var = gini_ds.variables[var[dtype]]
+KeyError: 'SOUND-7.02'
+KeyError: 'SOUND-4.45'
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 55, in <module>
+    data_var = gini_ds.variables[var[dtype]]
+KeyError: 'SOUND-11.03'
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 55, in <module>
+    data_var = gini_ds.variables[var[dtype]]
+KeyError: 'SOUND-14.06'
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-15/plot.py", line 55, in <module>
+    data_var = gini_ds.variables[var[dtype]]
+KeyError: 'SOUND-7.43'
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/sat/GOES-13/plot.py", line 46, in <module>
+    gini_ds = gini.to_dataset()
+  File "/usr/lib64/python2.7/site-packages/metpy/io/gini.py", line 262, in to_dataset
+    raise NotImplementedError('Need to add more projections to dataset!')
+NotImplementedError: Need to add more projections to dataset!
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+python: can't open file '/home/plotbot/scripts/dtypes/grib2/NAM/plot.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/plotbot/scripts/dtypes/radar/N0Z/plot.py", line 40, in <module>
+    f = Level3File(filename)
+  File "/usr/lib64/python2.7/site-packages/metpy/io/nexrad.py", line 1488, in __init__
+    assert self._buffer.check_remains(self.header.msg_len - self.header_fmt.size)
+AssertionError

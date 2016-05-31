@@ -1,0 +1,68 @@
+#!/usr/bin/env python
+"""
+The PlotBot
+
+C. Martin - 5/2016
+Univ. of MD - trowal.weather.umd.edu
+
+watches specified data directory
+and with Unidata LDM
+creates meteorology products for web
+"""
+# user defined variables
+datadir = '/home/ldm/data/'
+plotdir = '/var/www/html/products/'
+logdir = '/home/plotbot/logs/'
+scriptdir = '/home/plotbot/scripts/dtypes/'
+# list of products to process
+prods = ['GFS','HRRR','NAM','GOES-13','GOES-15','N0Z']
+
+import datetime as dt
+import time
+import subprocess
+import os
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+import logging
+import logging.handlers
+
+# logging
+starttime = dt.datetime.utcnow()
+logFile = logdir+starttime.strftime("%Y%m%d")+'.log'
+log = logging.getLogger()
+log.setLevel(logging.INFO)
+ch = logging.handlers.RotatingFileHandler(logFile, maxBytes=1024*1024*5, backupCount=5)
+ch.setFormatter(logging.Formatter('[%(asctime)s %(levelname)s]: %(message)s', datefmt='%Y-%m-%d,%H:%M:%S'))
+log.addHandler(ch)
+
+log.info('////// PlotBot Starting ///////')
+
+
+class PlotBot(FileSystemEventHandler):
+	def on_created(self, event): # when new file is created by the LDM
+		if os.path.isdir(event.src_path): # ignore new directories
+			pass
+		else:
+			prod = event.src_path.split('/')
+			dtype = prod[4]
+			if dtype == 'text':
+				ptype = prod[6]
+			elif dtype == 'radar':
+				ptype = prod[6]
+			elif dtype == 'sat':
+				ptype = prod[7]
+			else:
+				ptype = prod[5]
+			fname = prod[-1]
+			if ptype in prods:
+				log.info('New Product: '+dtype+'/'+ptype+':'+fname)
+				child = 'python '+scriptdir+dtype+'/'+ptype+'/plot.py '+event.src_path+' '+plotdir
+				childwd = scriptdir
+				sp = subprocess.Popen(child,cwd=childwd,shell=True)
+
+observer = Observer()
+event_handler = PlotBot() # create event handler
+observer.schedule(event_handler, path=datadir,recursive=True)
+observer.start()
+
+observer.join()
