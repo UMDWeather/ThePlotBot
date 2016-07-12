@@ -1,0 +1,41 @@
+#!/usr/bin/env python
+"""
+   Meteograms
+     C. Martin - 7/2016
+     Generate Meteograms for model comparison
+"""
+import matplotlib as mpl
+mpl.use('Agg')
+import matplotlib.pyplot as plt
+from mpl_toolkits.basemap import Basemap
+import numpy as np
+from glob import glob
+import sys
+import datetime as dt
+import importlib
+import pygrib
+import os
+import time
+import netCDF4 as nc
+
+if len(sys.argv) != 4:
+  print 'wrong usage:'
+  print 'meteograms <root ldm datadir> <root wrf datadir> <root plotdir>'
+  sys.exit(1)
+
+rootldmdir = sys.argv[1]
+rootwrfdir = sys.argv[2]
+rootplotdir = sys.argv[3]
+
+plotDir = rootplotdir+'meteograms/'
+if not os.path.exists(plotDir):
+    os.makedirs(plotDir)
+
+### get the most recent model runs for the meteograms
+gfsruns = sorted(glob(os.path.join(rootldmdir+'/grib2/GFS/', '*/')), key=os.path.getmtime)[-2:]
+wrfruns = sorted(glob(os.path.join(rootwrfdir,'*/')), key=os.path.getmtime)[-2:]
+
+### list of stations to plot
+
+### plot the two most recent of each model type on the meteogram
+

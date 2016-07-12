@@ -26,7 +26,6 @@ def extrema(mat,mode='wrap',window=10):
 def plot(gribobj, pltenv):
 
     gauss_sigma = 3
-    lvl_500 = 11
 
 
     x = pltenv['x']
@@ -114,7 +113,7 @@ def plot(gribobj, pltenv):
     y = pltenv['y']
     gribobj.rewind()
     if __main__.timestep == '000':
-      precip = thck 
+      precip = mslp2 
       precip[:] = 0
     else:
       precip = gribobj.select(name='Total Precipitation')[0]

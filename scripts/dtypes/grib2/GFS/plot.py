@@ -17,7 +17,7 @@ import pygrib
 import os
 import time
 
-time.sleep(120) # wait two minutes for GRIB2 file to fully populate
+time.sleep(180) # wait three minutes for GRIB2 file to fully populate
 
 # command line arguments
 if len(sys.argv) != 3:
@@ -41,6 +41,7 @@ inittime = dt.datetime.strptime(inittime,"%Y%m%d%H")
 validtime = inittime + dt.timedelta(hours=float(timestep))
 
 domains = ['CONUS','MidAtl']
+domains = ['01','02']
 pltenv={}
 
 # load in all the plotting plugins
@@ -55,7 +56,7 @@ gfs = pygrib.open(filename)
 grb = gfs.read(1)[0]
 lats, lons = grb.latlons()
 for d in domains:
-  if d == 'MidAtl':
+  if d == '02':
     m= Basemap(width=1200000, height=800000, rsphere=(6378137.00,6356752.3142),
             resolution='h',area_thresh=1000.,projection='lcc',
             lat_1=39,lat_2=39,lat_0=39,lon_0=-77.5)
@@ -75,13 +76,16 @@ for d in domains:
     ax=fig.add_axes([0.03,0.1,0.94,0.8])
     pltenv['ax']=ax
     #annotations, boundaries, etc
-    ax.annotate('init:  '+inittime.strftime('%Y-%m-%d %HZ'),xy=(1,1.03),fontsize=9,
+    ax.annotate('init:  '+inittime.strftime('%Y-%m-%d %HZ'),xy=(1,1.05),fontsize=15,
               xycoords="axes fraction", horizontalalignment='right')
-    ax.annotate('valid: '+validtime.strftime('%Y-%m-%d %HZ'),xy=(1,1.01),fontsize=9,
+    ax.annotate('valid: '+validtime.strftime('%Y-%m-%d %HZ'),xy=(1,1.01),fontsize=15,
               xycoords="axes fraction", horizontalalignment='right')
-    ax.annotate('University of Maryland Dept. of Atmospheric and Oceanic Science',
+    ax.annotate('Univ. of Maryland - Dept. of Atmos. & Oceanic. Sci.',
+              xy=(-0.005,0), xycoords=('axes fraction'),rotation=90,horizontalalignment='right',verticalalignment='bottom',
+              color='Black',fontsize=12)
+    ax.annotate('Trowal - UMD Weather - http://trowal.weather.umd.edu',
               xy=(1.01,0), xycoords=('axes fraction'),rotation=90,horizontalalignment='left',verticalalignment='bottom',
-              color='gray',fontsize=8)
+              color='Black',fontsize=12)
     ax.annotate('GFS 0.25 deg', xy=(0,1.01), xycoords=('axes fraction'), horizontalalignment='left',
               verticalalignment='bottom', color='red')
     # map boundaries
@@ -104,5 +108,5 @@ for d in domains:
     cb.set_label(p.cbarlabel)
 
     # save the figures
-    plt.savefig(plotDir+'/{0}_F{1}_{2}.png'.format(p.filename,timestep,d))
+    plt.savefig(plotDir+'/{0}_F{1}_d{2}.png'.format(p.filename,timestep,d))
     plt.close('all')

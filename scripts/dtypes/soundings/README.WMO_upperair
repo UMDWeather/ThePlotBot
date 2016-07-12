@@ -1,0 +1,20 @@
+MiMiMjMj YYGGId IIiii
+
+MiMi = TT indicates temperature coded message
+MiMi = PP indicates upper wind coded message
+
+MjMj = AA indicates mandatory levels below 100 hPa
+MjMj = BB indicates significant levels below 100 hPa
+MjMj = CC indicates mandatory levels above 100hPa
+MjMj = DD indicates significant levels above 100 hPa
+
+YY - day
+GG - Hour
+
+Id indicates the hundreds (for part AA) or the tens (for part CC) of hPa of the last wind report.
+
+IIiii indicates the five digit WMO identification number of the upper air station where the rawinsonde was launched.
+
+PPZZZ TTTDD dddff
+
+
