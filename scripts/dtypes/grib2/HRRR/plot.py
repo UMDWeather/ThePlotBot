@@ -89,6 +89,7 @@ for d in domains:
     pltenv['map'].drawcoastlines(color= p.boundaryColor)
     pltenv['map'].drawcountries(color=p.boundaryColor)
     pltenv['map'].drawstates(color=p.boundaryColor)
+    pltenv['map'].drawcounties(color=p.boundaryColor)
     
     plt.title(p.title,fontweight='bold')
 

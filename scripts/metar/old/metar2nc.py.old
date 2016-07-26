@@ -1,0 +1,70 @@
+#!/usr/bin/env python
+"""
+   metar2nc
+   C. Martin - Univ. of MD - 7/2016
+   takes input from stdin of raw METAR data and
+   write converted METAR data to netCDF file
+"""
+from netCDF4 import Dataset
+import datetime as dt
+import os
+import sys
+from metar import Metar
+
+metardir = '/home/ldm/data/text/metar'
+now = dt.datetime.utcnow()
+cdffile = metardir + '/' + now.strftime('%Y%m%d') + '/' + now.strftime('%Y%m%d_%H') + '_metar2.nc' 
+# check if netCDF file exists
+if os.path.isfile(cdffile):
+  # open as appendable
+  print('append')
+  cdfout = Dataset(cdffile,'a',format='NETCDF4')
+  stationout = cdfout.variables["StationID"]
+  timestampout = cdfout.variables["Timestamp"]
+  tempout = cdfout.variables["Temp"]
+  dewout = cdfout.variables["DewTemp"]
+  pressout = cdfout.variables["Pressure"]
+  remarksout = cdfout.variables["Remarks"]
+  wspdout = cdfout.variables["WindSpeed"]
+  wdirout = cdfout.variables["WindDir"]
+else:
+  # create new netcdf file
+  cdfout = Dataset(cdffile,'w',format='NETCDF4') 
+  # this also means we need to create the dimensions and vars
+  timeout = cdfout.createDimension("Time", None)
+  stationout = cdfout.createVariable("StationID", "S2", ("Time",))
+  timestampout = cdfout.createVariable("Timestamp","S2",("Time",))
+  tempout = cdfout.createVariable("Temp","f4",("Time",))
+  dewout = cdfout.createVariable("DewTemp","f4",("Time",))
+  pressout = cdfout.createVariable("Pressure","f4",("Time",))
+  remarksout = cdfout.createVariable("Remarks","S2",("Time",))
+  wspdout = cdfout.createVariable("WindSpeed","f4",("Time",))
+  wdirout = cdfout.createVariable("WindDir","f4",("Time",))
+
+metarin = sys.stdin.read()
+metarin = metarin.replace('\n','')
+records = metarin.split('=') # records end with equals sign
+r = len(stationout)
+for record in records:
+  try:
+    print r
+    obs = Metar.Metar(record)
+    print('decoded')
+    stationid = obs.station_id
+    stationout[r] = stationid
+    print('placed station')
+    timestampout[r] = obs.time.ctime()
+    print('placed time')
+    tempout[r] = obs.temp.value("C")
+    print('placed temp')
+    dewout[r] = obs.dewpt.value("C")
+    print('placed dew')
+    pressout[r] = obs.press.value("mb")
+    remarks = ', '.join(obs._remarks)
+    remarksout[r] = remarks
+    wspdout[r] = obs.wind_speed.value("KT")
+    wdirout[r] = obs.wind_dir.value()
+    r = r + 1
+  except:
+    pass
+cdfout.close()

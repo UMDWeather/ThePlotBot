@@ -17,7 +17,7 @@ import pygrib
 import os
 import time
 
-time.sleep(180) # wait three minutes for GRIB2 file to fully populate
+time.sleep(240) # wait three minutes for GRIB2 file to fully populate
 
 # command line arguments
 if len(sys.argv) != 3:
@@ -92,6 +92,7 @@ for d in domains:
     pltenv['map'].drawcoastlines(color= p.boundaryColor)
     pltenv['map'].drawcountries(color=p.boundaryColor)
     pltenv['map'].drawstates(color=p.boundaryColor)
+    pltenv['map'].drawcounties(color=p.boundaryColor)
     
     plt.title(p.title,fontweight='bold')
 
