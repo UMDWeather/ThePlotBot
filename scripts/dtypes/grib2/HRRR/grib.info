@@ -1,0 +1,81 @@
+1:Geopotential Height:gpm (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 4 hrs:from 201609051900
+2:Geopotential Height:gpm (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 4 hrs:from 201609051900
+3:Dew point temperature:K (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 4 hrs:from 201609051900
+4:Temperature:K (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 4 hrs:from 201609051900
+5:Temperature:K (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 4 hrs:from 201609051900
+6:Geopotential Height:gpm (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 4 hrs:from 201609051900
+7:Temperature:K (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 4 hrs:from 201609051900
+8:Geopotential Height:gpm (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 4 hrs:from 201609051900
+9:Temperature:K (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 4 hrs:from 201609051900
+10:Dew point temperature:K (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 4 hrs:from 201609051900
+11:Dew point temperature:K (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 4 hrs:from 201609051900
+12:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 4 hrs:from 201609051900
+13:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 4 hrs:from 201609051900
+14:Dew point temperature:K (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 4 hrs:from 201609051900
+15:Dew point temperature:K (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 4 hrs:from 201609051900
+16:Temperature:K (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 4 hrs:from 201609051900
+17:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 4 hrs:from 201609051900
+18:10 metre V wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 4 hrs:from 201609051900
+19:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 4 hrs:from 201609051900
+20:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 4 hrs:from 201609051900
+21:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 4 hrs:from 201609051900
+22:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 4 hrs:from 201609051900
+23:U component of wind:m s**-1 (instant):lambert:heightAboveGround:level 80 m:fcst time 4 hrs:from 201609051900
+24:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 4 hrs:from 201609051900
+25:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 4 hrs:from 201609051900
+26:10 metre U wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 4 hrs:from 201609051900
+27:V component of wind:m s**-1 (instant):lambert:heightAboveGround:level 80 m:fcst time 4 hrs:from 201609051900
+28:Wind speed (gust):m s**-1 (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+29:2 metre temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 4 hrs:from 201609051900
+30:2 metre dewpoint temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 4 hrs:from 201609051900
+31:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 4 hrs:from 201609051900
+32:10 metre wind speed:m s**-1 (max):lambert:heightAboveGround:level 10 m:fcst time 3-4 hrs (max):from 201609051900
+33:Convective available potential energy:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-0 Pa:fcst time 4 hrs:from 201609051900
+34:Surface lifted index:K (instant):lambert:isobaricLayer:levels 50000-100000 Pa:fcst time 4 hrs:from 201609051900
+35:Orography:m (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+36:Convective available potential energy:J kg**-1 (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+37:Convective inhibition:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 4 hrs:from 201609051900
+38:Best (4-layer) lifted index:K (instant):lambert:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 4 hrs:from 201609051900
+39:Convective available potential energy:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 4 hrs:from 201609051900
+40:Convective inhibition:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-0 Pa:fcst time 4 hrs:from 201609051900
+41:Convective inhibition:J kg**-1 (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+42:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 10:fcst time 4 hrs:from 201609051900
+43:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 3-4 hrs (accum):from 201609051900
+44:Precipitable water:kg m**-2 (instant):lambert:unknown:level 0 200:fcst time 4 hrs:from 201609051900
+45:Visibility:m (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+46:Geopotential Height:gpm (instant):lambert:unknown:level 0 215:fcst time 4 hrs:from 201609051900
+47:Low cloud cover:% (instant):lambert:unknown:level 0 214:fcst time 4 hrs:from 201609051900
+48:Geopotential Height:gpm (instant):lambert:cloudTop:level 0:fcst time 4 hrs:from 201609051900
+49:Pressure of level from which parcel was lifted:Pa (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 4 hrs:from 201609051900
+50:Storm relative helicity:J kg**-1 (instant):lambert:heightAboveGroundLayer:levels 1000-0 m:fcst time 4 hrs:from 201609051900
+51:Total Cloud Cover:% (instant):lambert:unknown:level 0 10:fcst time 4 hrs:from 201609051900
+52:U-component storm motion:m s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-6000 m:fcst time 4 hrs:from 201609051900
+53:220:220 (max):lambert:pressureFromGroundLayer:levels 40000-100000 Pa:fcst time 3-4 hrs (max):from 201609051900
+54:Storm relative helicity:J kg**-1 (instant):lambert:heightAboveGroundLayer:levels 3000-0 m:fcst time 4 hrs:from 201609051900
+55:V-component storm motion:m s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-6000 m:fcst time 4 hrs:from 201609051900
+56:221:221 (max):lambert:pressureFromGroundLayer:levels 40000-100000 Pa:fcst time 3-4 hrs (max):from 201609051900
+57:Vertical u-component shear:s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-1000 m:fcst time 4 hrs:from 201609051900
+58:Vertical v-component shear:s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-1000 m:fcst time 4 hrs:from 201609051900
+59:Vertical u-component shear:s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-6000 m:fcst time 4 hrs:from 201609051900
+60:Pressure reduced to MSL:Pa (instant):lambert:meanSea:level 0:fcst time 4 hrs:from 201609051900
+61:Vertical v-component shear:s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-6000 m:fcst time 4 hrs:from 201609051900
+62:Planetary boundary layer height:m (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+63:Surface pressure:Pa (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+64:199:199 (max):lambert:heightAboveGroundLayer:levels 5000-2000 m:fcst time 3-4 hrs (max):from 201609051900
+65:Geopotential Height:gpm (instant):lambert:adiabaticCondensation:level 0:fcst time 4 hrs:from 201609051900
+66:Categorical snow:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+67:Vertical velocity [geometric]:m s-1 (avg):lambert:sigmaLayer:levels 0.5-0.8 sigma value:fcst time 3-4 hrs (avg):from 201609051900
+68:Categorical freezing rain:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+69:198:198 (max):lambert:heightAboveGround:level 1000 m:fcst time 3-4 hrs (max):from 201609051900
+70:Lightning:non-dim (instant):lambert:unknown:level 0 10:fcst time 4 hrs:from 201609051900
+71:Vertically-integrated liquid:kg m**-1 (instant):lambert:unknown:level 0 10:fcst time 4 hrs:from 201609051900
+72:Medium cloud cover:% (instant):lambert:unknown:level 0 224:fcst time 4 hrs:from 201609051900
+73:High cloud cover:% (instant):lambert:unknown:level 0 234:fcst time 4 hrs:from 201609051900
+74:Snow depth:m (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+75:Water equivalent of accumulated snow depth:kg m**-2 (accum):lambert:surface:level 0:fcst time 3-4 hrs (accum):from 201609051900
+76:3:3 (instant):lambert:cloudTop:level 0:fcst time 4 hrs:from 201609051900
+77:74:74 (max):lambert:unknown:level 0 200:fcst time 3-4 hrs (max):from 201609051900
+78:Categorical rain:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+79:Categorical ice pellets:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+80:Percent frozen precipitation:% (instant):lambert:surface:level 0:fcst time 4 hrs:from 201609051900
+81:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 4 hrs:from 201609051900

@@ -15,7 +15,7 @@ plotdir = '/var/www/html/products/'
 logdir = '/home/plotbot/logs/'
 scriptdir = '/home/plotbot/scripts/dtypes/'
 # list of products to process
-prods = ['GFS','HRRR','NAM','GOES-13','GOES-15','N0Q']
+prods = ['GFS','HRRR','NAM','GOES-13','GOES-15','N0Q','nam','RTMA']
 
 import datetime as dt
 import time

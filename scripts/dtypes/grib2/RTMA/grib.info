@@ -1,0 +1,19 @@
+1:2 metre temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 201609051600
+2:Orography:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 201609051600
+3:2 metre dewpoint temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 201609051600
+4:Surface pressure:Pa (instant):lambert:surface:level 0:fcst time 0 hrs:from 201609051600
+5:10 metre V wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 201609051600
+6:10 metre wind speed:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 201609051600
+7:10 metre U wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 201609051600
+8:Wind direction [from which blowing]:deg true (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 201609051600
+9:Total Cloud Cover:% (instant):lambert:unknown:level 0 200:fcst time 0 hrs:from 201609051600
+10:Wind speed (gust):m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 201609051600
+11:Surface pressure:Pa (instant):lambert:surface:level 0:fcst time 0 hrs:from 201609051600
+12:Visibility:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 201609051600
+13:Wind direction [from which blowing]:deg true (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 201609051600
+14:Total Cloud Cover:% (instant):lambert:unknown:level 0 200:fcst time 0 hrs:from 201609051600
+15:Visibility:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 201609051600
+16:Wind speed (gust):m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 201609051600
+17:2 metre dewpoint temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 201609051600
+18:10 metre wind speed:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 201609051600
+19:2 metre temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 201609051600

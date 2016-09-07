@@ -51,7 +51,7 @@ gini = GiniFile(filename)
 gini_ds = gini.to_dataset()
 
 var = {'IR':'IR','VIS':'Visible','WV':'WV','13.3':'IR','3.9':'IR'}
-cbarlabels = {'Visible':'Brightness','IR':'IDK','WV':'IDK'}
+cbarlabels = {'Visible':'Brightness','IR':'Brightness','WV':'Brightness'}
 title = {'IR':'Infrared','VIS':'Visible','WV':'Water Vapor','13.3':'13.3 micron IR','3.9':'3.9 micron IR'}
 
 cbarlabel = cbarlabels[var[dtype]]
@@ -100,7 +100,10 @@ for d in domains:
   xm, ym = m(lons,lats)
   fig = plt.figure(figsize=(14,11))
   ax=fig.add_axes([0.03,0.1,0.94,0.8])
-  im = plt.pcolormesh(xm,ym[::-1],data_var[:],cmap='Greys_r',vmin=0,vmax=255)
+  if dtype == 'WV':
+    im = plt.pcolormesh(xm,ym[::-1],data_var[:],cmap='Greys_r',vmin=128,vmax=255)
+  else:
+    im = plt.pcolormesh(xm,ym[::-1],data_var[:],cmap='Greys_r',vmin=0,vmax=255)
   m.drawcoastlines(color='red')
   m.drawcountries(color='red')
   m.drawstates(color='red')

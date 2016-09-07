@@ -5,8 +5,8 @@ import scipy.ndimage as ndimage
 from scipy.ndimage.filters import minimum_filter, maximum_filter
 from mpl_toolkits.basemap import cm
 
-filename='simulatedreflect'
-title ='Simulated Reflectivity 1km AGL'
+filename='compreflect'
+title ='Maximum/Composite Radar Reflectivity'
 cbarlabel = 'dBZ'
 boundaryColor = 'gray'
 frequency = 3                   # frequency in hrs
@@ -34,7 +34,7 @@ def plot(gribobj, pltenv):
     m = pltenv['map']
     bbox = dict(boxstyle="square",ec='None',fc=(1,1,1,0.75))
 
-    dBZ = gribobj.select(name='Derived radar reflectivity',typeOfLevel='heightAboveGround',level=1000)[0]
+    dBZ = gribobj.select(name='Maximum/Composite radar reflectivity')[0]
     dBZ = dBZ.values
 
     units = 'dBZ'

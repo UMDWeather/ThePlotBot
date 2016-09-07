@@ -1,0 +1,16 @@
+#!/bin/bash
+# cleanbot
+# remove old plots/dirs
+# C. Martin - 9/2016
+
+dirs="/var/www/html/products/grib2/GFS
+	/var/www/html/products/grib2/HRRR
+	/var/www/html/products/grib2/NAM
+	/var/www/html/products/grib2/nam
+	/var/www/html/products/grib2/RTMA
+	/var/www/html/products/raob
+	"
+
+for dir in $dirs; do
+  find $dir/* -mtime +10 -delete
+done

@@ -46,16 +46,16 @@ def plot(gribobj, pltenv):
 
     #plot lows and high
     mslp3 = ndimage.gaussian_filter(mslp,sigma=7)
-    local_min, local_max = extrema(mslp3, window=5)
+    local_min, local_max = extrema(mslp3, window=100)
     xlows = x[local_min]; xhighs = x[local_max]
     ylows = y[local_min]; yhighs = y[local_max]
     lowvals = mslp[local_min]; highvals = mslp[local_max]
 
-    # plot lows as blue L's, with min pressure value underneath.
+    # plot lows as red L's, with min pressure value underneath.
     xyplotted = []
     # don't plot if there is already a L or H within dmin meters.
     yoffset = 0.022*(m.ymax-m.ymin)
-    dmin = yoffset
+    dmin = yoffset 
     for hlx,hly,p in zip(xlows, ylows, lowvals):
         if hlx < m.xmax and hlx > m.xmin and hly < m.ymax and hly > m.ymin:
             dist = [np.sqrt((hlx-x0)**2+(hly-y0)**2) for x0,y0 in xyplotted]
@@ -67,7 +67,7 @@ def plot(gribobj, pltenv):
                     bbox = bbox)
                 xyplotted.append((hlx,hly))
 
-    # plot highs as red H's, with max pressure value underneath.
+    # plot highs as blue H's, with max pressure value underneath.
     xyplotted = []
     for hlx,hly,p in zip(xhighs, yhighs, highvals):
         if hlx < m.xmax and hlx > m.xmin and hly < m.ymax and hly > m.ymin:
@@ -87,9 +87,8 @@ def plot(gribobj, pltenv):
     gribobj.rewind()
     gpm500 = gribobj.select(name='Geopotential Height',typeOfLevel='isobaricInhPa',level=500)[0]
     gpm1000 = gribobj.select(name='Geopotential Height',typeOfLevel='isobaricInhPa',level=1000)[0]
-    gpm500,lats,lons = gpm500.data(lat1=20,lat2=55,lon1=220,lon2=320)
-    gpm1000,lats,lons = gpm1000.data(lat1=20,lat2=55,lon1=220,lon2=320)
-    x,y = m(lons,lats)
+    gpm500 = gpm500.values
+    gpm1000 = gpm1000.values
     thck = gpm500-gpm1000
     thck = thck/10.
     thck2 = ndimage.gaussian_filter(thck,sigma=gauss_sigma)

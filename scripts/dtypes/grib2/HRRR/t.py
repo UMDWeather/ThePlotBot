@@ -17,7 +17,7 @@ import pygrib
 import os
 import time
 
-time.sleep(240) # wait three minutes for GRIB2 file to fully populate
+#time.sleep(180) # wait three minutes for GRIB2 file to fully populate
 
 # command line arguments
 if len(sys.argv) != 3:
@@ -60,9 +60,9 @@ for d in domains:
             lat_1=39,lat_2=39,lat_0=39,lon_0=-77.5)
     pltenv['thin'] = 30
   else:
-    m= Basemap(width=4900000, height=3050000, rsphere=(6378137.00,6356752.3142),
+    m= Basemap(width=4900000, height=3150000, rsphere=(6378137.00,6356752.3142),
             resolution='l',area_thresh=1000.,projection='lcc',
-            lat_1=39.5,lat_2=39.5,lat_0=38.5,lon_0=-96.3)
+            lat_1=39.5,lat_2=39.5,lat_0=38.5,lon_0=-97)
     pltenv['thin'] = 100
 
   x,y = m(lons,lats)

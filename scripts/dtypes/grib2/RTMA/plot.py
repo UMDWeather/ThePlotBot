@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-""" Ann Veal.py (her?)
-    C. Martin - 5/2016
-    plot HRRR output
-    from GRIB2 files from LDM
+""" RTMA 
+    C. Martin - 9/2016
+    plot RTMA 2.5km
+    from GRIB2 files
 """
 import matplotlib as mpl
 mpl.use('Agg')
@@ -17,53 +17,60 @@ import pygrib
 import os
 import time
 
-time.sleep(240) # wait three minutes for GRIB2 file to fully populate
+time.sleep(120) # wait a minute for GRIB2 file to fully populate
 
 # command line arguments
 if len(sys.argv) != 3:
-  print 'Way to plant, Ann! You laid a mayonegg...:'
-  print 'HRRR.py <path to grib file> <output dir>'
+  print 'wrong usage:'
+  print sys.argv[0]+' <path to grib file> <root plot dir>'
   sys.exit(1)
 
 filename = sys.argv[1]
 rootplotdir = sys.argv[2]
 filepath = filename.split('/')
 gribfile = filepath[-1]
-inittime = filepath[6]
-timestep = gribfile[14:-6]
+initday = gribfile[16:-17]
+timestep = gribfile[32:-6]
+inithour = gribfile[25:-12]
+inittime = initday+inithour
 
-plotDir = rootplotdir+filepath[4]+'/'+filepath[5]+'/'+inittime
+if timestep == '001':
+  sys.exit()
+
+plotDir = rootplotdir+filepath[4]+'/'+filepath[5]+'/'
 if not os.path.exists(plotDir):
     os.makedirs(plotDir)
 
 inittime = dt.datetime.strptime(inittime,"%Y%m%d%H%M")
 validtime = inittime + dt.timedelta(hours=float(timestep))
 
-domains = ['01','02'] # CONUS, MidAtl
+domains = ['CONUS','MidAtl','MD']
 pltenv={}
 
 # load in all the plotting plugins
 plugins=[]
-for p in glob('/home/plotbot/scripts/dtypes/grib2/HRRR/plot_plugins/[a-zA-Z]*py'):
+for p in glob('/home/plotbot/scripts/dtypes/grib2/RTMA/plot_plugins/[a-zA-Z]*py'):
   md='plot_plugins.'+p.split('/')[-1].split('.')[0]
   plugins.append(importlib.import_module(md))
 
-hrrr = pygrib.open(filename)
 
-grb = hrrr.read(1)[0]
+gfs = pygrib.open(filename)
+
+grb = gfs.read(1)[0]
 lats, lons = grb.latlons()
-
 for d in domains:
-  if d == '02':
+  if d == 'MidAtl':
     m= Basemap(width=1200000, height=800000, rsphere=(6378137.00,6356752.3142),
             resolution='h',area_thresh=1000.,projection='lcc',
             lat_1=39,lat_2=39,lat_0=39,lon_0=-77.5)
-    pltenv['thin'] = 30
+  elif d == 'MD':
+    m= Basemap(width=600000, height=400000, rsphere=(6378137.00,6356752.3142),
+            resolution='h',area_thresh=1000.,projection='lcc',
+            lat_1=39,lat_2=39,lat_0=39,lon_0=-77.5)
   else:
-    m= Basemap(width=4900000, height=3050000, rsphere=(6378137.00,6356752.3142),
+    m= Basemap(width=5100000, height=3600000, rsphere=(6378137.00,6356752.3142),
             resolution='l',area_thresh=1000.,projection='lcc',
-            lat_1=39.5,lat_2=39.5,lat_0=38.5,lon_0=-96.3)
-    pltenv['thin'] = 100
+            lat_1=39.5,lat_2=39.5,lat_0=39.5,lon_0=-98.35)
 
   x,y = m(lons,lats)
   pltenv['map'] = m
@@ -71,31 +78,26 @@ for d in domains:
   pltenv['y'] = y
 
   for p in plugins:
+    gfs.seek(0)
     fig = plt.figure(figsize=(14,11))
     ax=fig.add_axes([0.03,0.1,0.94,0.8])
     pltenv['ax']=ax
     #annotations, boundaries, etc
-    ax.annotate('init:  '+inittime.strftime('%Y-%m-%d %HZ'),xy=(1,1.05),fontsize=15,
-              xycoords="axes fraction", horizontalalignment='right')
     ax.annotate('valid: '+validtime.strftime('%Y-%m-%d %HZ'),xy=(1,1.01),fontsize=15,
               xycoords="axes fraction", horizontalalignment='right')
-    ax.annotate('Univ. of Maryland - Dept. of Atmos. & Oceanic. Sci.',
-              xy=(-0.005,0), xycoords=('axes fraction'),rotation=90,horizontalalignment='right',verticalalignment='bottom',
-              color='Black',fontsize=12)
-    ax.annotate('Trowal - UMD Weather - http://trowal.weather.umd.edu',
+    ax.annotate('University of Maryland Dept. of Atmospheric and Oceanic Science',
               xy=(1.01,0), xycoords=('axes fraction'),rotation=90,horizontalalignment='left',verticalalignment='bottom',
-              color='Black',fontsize=12)
-    ax.annotate('High Resolution Rapid Refresh (HRRR)', xy=(0,1.01), xycoords=('axes fraction'), horizontalalignment='left',
+              color='gray',fontsize=8)
+    ax.annotate('Real-Time Mesoscale Analysis', xy=(0,1.01), xycoords=('axes fraction'), horizontalalignment='left',
               verticalalignment='bottom', color='red')
     # map boundaries
     pltenv['map'].drawcoastlines(color= p.boundaryColor)
     pltenv['map'].drawcountries(color=p.boundaryColor)
     pltenv['map'].drawstates(color=p.boundaryColor)
-    pltenv['map'].drawcounties(color=p.boundaryColor)
     
     plt.title(p.title,fontweight='bold')
 
-    p.plot(hrrr, pltenv)
+    p.plot(gfs, pltenv)
     
     #colorbar
     #TODO, move this to sub routines
@@ -108,5 +110,5 @@ for d in domains:
     cb.set_label(p.cbarlabel)
 
     # save the figures
-    plt.savefig(plotDir+'/{0}_F{1}_d{2}.png'.format(p.filename,timestep,d))
+    plt.savefig(plotDir+'/{0}_{1}_{2}.png'.format(p.filename,validtime.strftime('%Y%m%d%H%M'),d))
     plt.close('all')

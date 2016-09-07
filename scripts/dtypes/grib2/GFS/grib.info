@@ -1,0 +1,415 @@
+1:Temperature:K (instant):regular_ll:isobaricInhPa:level 100 Pa:fcst time 69 hrs:from 201609051200
+2:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 200 Pa:fcst time 69 hrs:from 201609051200
+3:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 500 Pa:fcst time 69 hrs:from 201609051200
+4:Temperature:K (instant):regular_ll:isobaricInhPa:level 1000 Pa:fcst time 69 hrs:from 201609051200
+5:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 2000 Pa:fcst time 69 hrs:from 201609051200
+6:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 5000 Pa:fcst time 69 hrs:from 201609051200
+7:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 7000 Pa:fcst time 69 hrs:from 201609051200
+8:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+9:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+10:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+11:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+12:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+13:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+14:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+15:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+16:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+17:234:234 (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+18:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+19:Temperature:K (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+20:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+21:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+22:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+23:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+24:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 100 Pa:fcst time 69 hrs:from 201609051200
+25:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 300 Pa:fcst time 69 hrs:from 201609051200
+26:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 700 Pa:fcst time 69 hrs:from 201609051200
+27:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 1000 Pa:fcst time 69 hrs:from 201609051200
+28:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 3000 Pa:fcst time 69 hrs:from 201609051200
+29:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 5000 Pa:fcst time 69 hrs:from 201609051200
+30:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 7000 Pa:fcst time 69 hrs:from 201609051200
+31:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+32:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+33:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+34:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+35:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+36:Wind speed (gust):m s**-1 (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+37:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+38:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 100 Pa:fcst time 69 hrs:from 201609051200
+39:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+40:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 200 Pa:fcst time 69 hrs:from 201609051200
+41:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+42:Temperature:K (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+43:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+44:U component of wind:m s**-1 (instant):regular_ll:unknown:level 0 220:fcst time 69 hrs:from 201609051200
+45:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 300 Pa:fcst time 69 hrs:from 201609051200
+46:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+47:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 200 Pa:fcst time 69 hrs:from 201609051200
+48:Temperature:K (instant):regular_ll:isobaricInhPa:level 500 Pa:fcst time 69 hrs:from 201609051200
+49:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 300 Pa:fcst time 69 hrs:from 201609051200
+50:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+51:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 700 Pa:fcst time 69 hrs:from 201609051200
+52:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 1000 Pa:fcst time 69 hrs:from 201609051200
+53:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+54:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 3000 Pa:fcst time 69 hrs:from 201609051200
+55:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 5000 Pa:fcst time 69 hrs:from 201609051200
+56:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+57:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 500 Pa:fcst time 69 hrs:from 201609051200
+58:Temperature:K (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+59:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+60:234:234 (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+61:Temperature:K (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+62:Temperature:K (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+63:Temperature:K (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+64:Temperature:K (instant):regular_ll:isobaricInhPa:level 97500 Pa:fcst time 69 hrs:from 201609051200
+65:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+66:Temperature:K (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+67:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 700 Pa:fcst time 69 hrs:from 201609051200
+68:Soil Temperature:K (instant):regular_ll:depthBelowLandLayer:levels 0.0-0.1 m:fcst time 69 hrs:from 201609051200
+69:Potential evaporation rate:W m**-2 (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+70:Percent frozen precipitation:% (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+71:Temperature:K (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+72:Latent heat net flux:W m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+73:Surface lifted index:K (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+74:Temperature:K (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+75:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 1000 Pa:fcst time 69 hrs:from 201609051200
+76:Temperature:K (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+77:Temperature:K (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+78:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 2000 Pa:fcst time 69 hrs:from 201609051200
+79:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+80:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 3000 Pa:fcst time 69 hrs:from 201609051200
+81:Temperature:K (instant):regular_ll:isobaricInhPa:level 7000 Pa:fcst time 69 hrs:from 201609051200
+82:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+83:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+84:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+85:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+86:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+87:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+88:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+89:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+90:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+91:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+92:234:234 (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+93:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+94:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+95:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 2000 Pa:fcst time 69 hrs:from 201609051200
+96:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+97:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+98:Temperature:K (instant):regular_ll:isobaricInhPa:level 92500 Pa:fcst time 69 hrs:from 201609051200
+99:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+100:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+101:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+102:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+103:234:234 (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+104:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 97500 Pa:fcst time 69 hrs:from 201609051200
+105:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+106:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+107:Temperature:K (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+108:Soil Temperature:K (instant):regular_ll:depthBelowLandLayer:levels 0.1-0.4 m:fcst time 69 hrs:from 201609051200
+109:Specific humidity:kg kg**-1 (instant):regular_ll:heightAboveGround:level 2 m:fcst time 69 hrs:from 201609051200
+110:Precipitation rate:kg m**-2 s**-1 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+111:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+112:Ground heat flux:W m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+113:Temperature:K (instant):regular_ll:isobaricInhPa:level 5000 Pa:fcst time 69 hrs:from 201609051200
+114:Convective inhibition:J kg**-1 (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+115:Pressure:Pa (avg):regular_ll:unknown:level 0 212:fcst time 66-69 hrs (avg):from 201609051200
+116:Total Cloud Cover:% (instant):regular_ll:unknown:level 0 244:fcst time 69 hrs:from 201609051200
+117:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+118:U-component storm motion:m s**-1 (instant):regular_ll:heightAboveGroundLayer:levels 6000-0 m:fcst time 69 hrs:from 201609051200
+119:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 92500 Pa:fcst time 69 hrs:from 201609051200
+120:ICAO Standard Atmosphere reference height:m (instant):regular_ll:maxWind:level 0:fcst time 69 hrs:from 201609051200
+121:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+122:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 7000 Pa:fcst time 69 hrs:from 201609051200
+123:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 97500 Pa:fcst time 69 hrs:from 201609051200
+124:MSLP (Eta model reduction):Pa (instant):regular_ll:meanSea:level 0:fcst time 69 hrs:from 201609051200
+125:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+126:Volumetric soil moisture content:Proportion (instant):regular_ll:depthBelowLandLayer:levels 0.4-1.0 m:fcst time 69 hrs:from 201609051200
+127:21:21 (instant):regular_ll:heightAboveGround:level 2 m:fcst time 69 hrs:from 201609051200
+128:Water runoff:kg m**-2 (accum):regular_ll:surface:level 0:fcst time 66-69 hrs (accum):from 201609051200
+129:Zonal flux of gravity wave stress:N m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+130:Relative humidity:% (instant):regular_ll:unknown:level 0 200:fcst time 69 hrs:from 201609051200
+131:Pressure:Pa (instant):regular_ll:unknown:level 0 243:fcst time 69 hrs:from 201609051200
+132:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+133:Downward short-wave radiation flux:W m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+134:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+135:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+136:ICAO Standard Atmosphere reference height:m (instant):regular_ll:tropopause:level 0:fcst time 69 hrs:from 201609051200
+137:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+138:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+139:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+140:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+141:234:234 (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+142:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+143:Temperature:K (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+144:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+145:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+146:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+147:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+148:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+149:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 92500 Pa:fcst time 69 hrs:from 201609051200
+150:2:2 (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+151:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+152:Orography:m (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+153:Water equivalent of accumulated snow depth:kg m**-2 (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+154:10 metre U wind component:m s**-1 (instant):regular_ll:heightAboveGround:level 10 m:fcst time 69 hrs:from 201609051200
+155:Categorical freezing rain:(Code table 4.222) (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+156:Field Capacity:Fraction (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+157:Total Cloud Cover:% (avg):regular_ll:unknown:level 0 224:fcst time 66-69 hrs (avg):from 201609051200
+158:Pressure:Pa (avg):regular_ll:unknown:level 0 233:fcst time 66-69 hrs (avg):from 201609051200
+159:Upward long-wave radiation flux:W m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+160:U component of wind:m s**-1 (instant):regular_ll:tropopause:level 0:fcst time 69 hrs:from 201609051200
+161:Specific humidity:kg kg**-1 (instant):regular_ll:heightAboveGround:level 80 m:fcst time 69 hrs:from 201609051200
+162:Temperature:K (instant):regular_ll:heightAboveSea:level 2743 m:fcst time 69 hrs:from 201609051200
+163:Temperature:K (instant):regular_ll:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 69 hrs:from 201609051200
+164:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 100 Pa:fcst time 69 hrs:from 201609051200
+165:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 300 Pa:fcst time 69 hrs:from 201609051200
+166:Temperature:K (instant):regular_ll:isobaricInhPa:level 700 Pa:fcst time 69 hrs:from 201609051200
+167:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 1000 Pa:fcst time 69 hrs:from 201609051200
+168:Temperature:K (instant):regular_ll:isobaricInhPa:level 3000 Pa:fcst time 69 hrs:from 201609051200
+169:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 5000 Pa:fcst time 69 hrs:from 201609051200
+170:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+171:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+172:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+173:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+174:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+175:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+176:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+177:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+178:Temperature:K (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+179:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+180:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+181:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+182:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+183:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+184:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+185:234:234 (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+186:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 92500 Pa:fcst time 69 hrs:from 201609051200
+187:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+188:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 97500 Pa:fcst time 69 hrs:from 201609051200
+189:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+190:Volumetric soil moisture content:Proportion (instant):regular_ll:depthBelowLandLayer:levels 0.0-0.1 m:fcst time 69 hrs:from 201609051200
+191:2 metre temperature:K (instant):regular_ll:heightAboveGround:level 2 m:fcst time 69 hrs:from 201609051200
+192:Convective precipitation rate:kg m**-2 s**-1 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+193:Sensible heat net flux:W m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+194:V component of wind:m s**-1 (instant):regular_ll:unknown:level 0 220:fcst time 69 hrs:from 201609051200
+195:Convective available potential energy:J kg**-1 (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+196:Pressure:Pa (instant):regular_ll:unknown:level 0 242:fcst time 69 hrs:from 201609051200
+197:Temperature:K (instant):regular_ll:isobaricInhPa:level 200 Pa:fcst time 69 hrs:from 201609051200
+198:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 300 Pa:fcst time 69 hrs:from 201609051200
+199:Temperature:K (avg):regular_ll:unknown:level 0 233:fcst time 66-69 hrs (avg):from 201609051200
+200:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 700 Pa:fcst time 69 hrs:from 201609051200
+201:Storm relative helicity:J kg**-1 (instant):regular_ll:heightAboveGroundLayer:levels 3000-0 m:fcst time 69 hrs:from 201609051200
+202:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 2000 Pa:fcst time 69 hrs:from 201609051200
+203:Pressure:Pa (instant):regular_ll:maxWind:level 0:fcst time 69 hrs:from 201609051200
+204:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 3000 Pa:fcst time 69 hrs:from 201609051200
+205:V component of wind:m s**-1 (instant):regular_ll:heightAboveGround:level 80 m:fcst time 69 hrs:from 201609051200
+206:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 5000 Pa:fcst time 69 hrs:from 201609051200
+207:Temperature:K (instant):regular_ll:heightAboveSea:level 3658 m:fcst time 69 hrs:from 201609051200
+208:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+209:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+210:U component of wind:m s**-1 (instant):regular_ll:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 69 hrs:from 201609051200
+211:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+212:Temperature:K (instant):regular_ll:sigma:level 0.995 sigma value:fcst time 69 hrs:from 201609051200
+213:Sea-ice cover:(0 - 1) (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+214:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+215:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+216:Temperature:K (instant):regular_ll:potentialVorticity:level 2.147485648 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+217:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+218:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+219:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+220:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+221:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+222:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+223:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+224:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+225:234:234 (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+226:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+227:Temperature:K (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+228:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 92500 Pa:fcst time 69 hrs:from 201609051200
+229:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+230:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 97500 Pa:fcst time 69 hrs:from 201609051200
+231:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+232:Volumetric soil moisture content:Proportion (instant):regular_ll:depthBelowLandLayer:levels 0.1-0.4 m:fcst time 69 hrs:from 201609051200
+233:2 metre dewpoint temperature:K (instant):regular_ll:heightAboveGround:level 2 m:fcst time 69 hrs:from 201609051200
+234:Total Precipitation:kg m**-2 (accum):regular_ll:surface:level 0:fcst time 66-69 hrs (accum):from 201609051200
+235:Momentum flux, u component:N m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+236:Precipitable water:kg m**-2 (instant):regular_ll:unknown:level 0 200:fcst time 69 hrs:from 201609051200
+237:Pressure:Pa (avg):regular_ll:unknown:level 0 222:fcst time 66-69 hrs (avg):from 201609051200
+238:Total Cloud Cover:% (avg):regular_ll:unknown:level 0 211:fcst time 66-69 hrs (avg):from 201609051200
+239:V-component storm motion:m s**-1 (instant):regular_ll:heightAboveGroundLayer:levels 6000-0 m:fcst time 69 hrs:from 201609051200
+240:Geopotential Height:gpm (instant):regular_ll:maxWind:level 0:fcst time 69 hrs:from 201609051200
+241:U component of wind:m s**-1 (instant):regular_ll:heightAboveGround:level 100 m:fcst time 69 hrs:from 201609051200
+242:V component of wind:m s**-1 (instant):regular_ll:maxWind:level 0:fcst time 69 hrs:from 201609051200
+243:V component of wind:m s**-1 (instant):regular_ll:heightAboveSea:level 3658 m:fcst time 69 hrs:from 201609051200
+244:Best (4-layer) lifted index:K (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+245:Relative humidity:% (instant):regular_ll:sigma:level 0.995 sigma value:fcst time 69 hrs:from 201609051200
+246:U component of wind:m s**-1 (instant):regular_ll:potentialVorticity:level 2e-06 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+247:Pressure:Pa (instant):regular_ll:potentialVorticity:level 2.147485648 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+248:Temperature:K (instant):regular_ll:heightAboveSea:level 1829 m:fcst time 69 hrs:from 201609051200
+249:Relative humidity:% (instant):regular_ll:isothermZero:level 0:fcst time 69 hrs:from 201609051200
+250:Convective inhibition:J kg**-1 (instant):regular_ll:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 69 hrs:from 201609051200
+251:Relative humidity:% (instant):regular_ll:sigmaLayer:levels 0.44-1.0 sigma value:fcst time 69 hrs:from 201609051200
+252:V component of wind:m s**-1 (instant):regular_ll:sigma:level 0.995 sigma value:fcst time 69 hrs:from 201609051200
+253:Convective inhibition:J kg**-1 (instant):regular_ll:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 69 hrs:from 201609051200
+254:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 100 Pa:fcst time 69 hrs:from 201609051200
+255:Temperature:K (instant):regular_ll:isobaricInhPa:level 300 Pa:fcst time 69 hrs:from 201609051200
+256:Temperature:K (instant):regular_ll:potentialVorticity:level 2e-06 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+257:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 500 Pa:fcst time 69 hrs:from 201609051200
+258:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 1000 Pa:fcst time 69 hrs:from 201609051200
+259:Vertical speed shear:s**-1 (instant):regular_ll:potentialVorticity:level 2e-06 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+260:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 2000 Pa:fcst time 69 hrs:from 201609051200
+261:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 5000 Pa:fcst time 69 hrs:from 201609051200
+262:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 7000 Pa:fcst time 69 hrs:from 201609051200
+263:234:234 (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+264:234:234 (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+265:234:234 (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+266:234:234 (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+267:234:234 (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+268:234:234 (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+269:234:234 (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+270:234:234 (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+271:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+272:Pressure reduced to MSL:Pa (instant):regular_ll:meanSea:level 0:fcst time 69 hrs:from 201609051200
+273:Temperature:K (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+274:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+275:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+276:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+277:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+278:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+279:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+280:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+281:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 97500 Pa:fcst time 69 hrs:from 201609051200
+282:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+283:Temperature:K (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+284:Snow depth:m (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+285:10 metre V wind component:m s**-1 (instant):regular_ll:heightAboveGround:level 10 m:fcst time 69 hrs:from 201609051200
+286:Categorical rain:(Code table 4.222) (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+287:201:201 (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+288:Total Cloud Cover:% (avg):regular_ll:unknown:level 0 234:fcst time 66-69 hrs (avg):from 201609051200
+289:Temperature:K (avg):regular_ll:unknown:level 0 213:fcst time 66-69 hrs (avg):from 201609051200
+290:Upward short-wave radiation flux:W m**-2 (avg):regular_ll:nominalTop:level 0:fcst time 66-69 hrs (avg):from 201609051200
+291:V component of wind:m s**-1 (instant):regular_ll:tropopause:level 0:fcst time 69 hrs:from 201609051200
+292:Pressure:Pa (instant):regular_ll:heightAboveGround:level 80 m:fcst time 69 hrs:from 201609051200
+293:U component of wind:m s**-1 (instant):regular_ll:heightAboveSea:level 2743 m:fcst time 69 hrs:from 201609051200
+294:Relative humidity:% (instant):regular_ll:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 69 hrs:from 201609051200
+295:Relative humidity:% (instant):regular_ll:sigmaLayer:levels 0.72-0.94 sigma value:fcst time 69 hrs:from 201609051200
+296:Pressure of level from which parcel was lifted:Pa (instant):regular_ll:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 69 hrs:from 201609051200
+297:U component of wind:m s**-1 (instant):regular_ll:potentialVorticity:level 2.147485648 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+298:224:224 (instant):regular_ll:unknown:level 0 220:fcst time 69 hrs:from 201609051200
+299:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 100 Pa:fcst time 69 hrs:from 201609051200
+300:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 200 Pa:fcst time 69 hrs:from 201609051200
+301:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 200 Pa:fcst time 69 hrs:from 201609051200
+302:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 500 Pa:fcst time 69 hrs:from 201609051200
+303:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 500 Pa:fcst time 69 hrs:from 201609051200
+304:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 1000 Pa:fcst time 69 hrs:from 201609051200
+305:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 700 Pa:fcst time 69 hrs:from 201609051200
+306:Temperature:K (instant):regular_ll:isobaricInhPa:level 2000 Pa:fcst time 69 hrs:from 201609051200
+307:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 2000 Pa:fcst time 69 hrs:from 201609051200
+308:Ozone mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 3000 Pa:fcst time 69 hrs:from 201609051200
+309:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 3000 Pa:fcst time 69 hrs:from 201609051200
+310:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 7000 Pa:fcst time 69 hrs:from 201609051200
+311:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 7000 Pa:fcst time 69 hrs:from 201609051200
+312:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+313:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+314:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+315:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+316:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+317:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+318:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+319:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+320:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 10000 Pa:fcst time 69 hrs:from 201609051200
+321:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+322:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+323:234:234 (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+324:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+325:Temperature:K (instant):regular_ll:isobaricInhPa:level 75000 Pa:fcst time 69 hrs:from 201609051200
+326:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+327:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+328:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+329:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 92500 Pa:fcst time 69 hrs:from 201609051200
+330:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+331:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 97500 Pa:fcst time 69 hrs:from 201609051200
+332:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 15000 Pa:fcst time 69 hrs:from 201609051200
+333:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+334:Soil Temperature:K (instant):regular_ll:depthBelowLandLayer:levels 1.0-2.0 m:fcst time 69 hrs:from 201609051200
+335:Maximum temperature:K (max):regular_ll:heightAboveGround:level 2 m:fcst time 66-69 hrs (max):from 201609051200
+336:Categorical snow:(Code table 4.222) (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+337:Meridional flux of gravity wave stress:N m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+338:Total ozone:Dobson (instant):regular_ll:unknown:level 0 200:fcst time 69 hrs:from 201609051200
+339:Pressure:Pa (avg):regular_ll:unknown:level 0 213:fcst time 66-69 hrs (avg):from 201609051200
+340:Downward long-wave radiation flux:W m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+341:Geopotential Height:gpm (instant):regular_ll:tropopause:level 0:fcst time 69 hrs:from 201609051200
+342:Temperature:K (instant):regular_ll:maxWind:level 0:fcst time 69 hrs:from 201609051200
+343:U component of wind:m s**-1 (instant):regular_ll:heightAboveSea:level 1829 m:fcst time 69 hrs:from 201609051200
+344:Geopotential Height:gpm (instant):regular_ll:unknown:level 0 204:fcst time 69 hrs:from 201609051200
+345:Planetary boundary layer height:m (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+346:Vertical velocity:Pa s**-1 (instant):regular_ll:sigma:level 0.995 sigma value:fcst time 69 hrs:from 201609051200
+347:Geopotential Height:gpm (instant):regular_ll:potentialVorticity:level 2e-06 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+348:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 20000 Pa:fcst time 69 hrs:from 201609051200
+349:5-wave geopotential height:gpm (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+350:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 25000 Pa:fcst time 69 hrs:from 201609051200
+351:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 30000 Pa:fcst time 69 hrs:from 201609051200
+352:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 35000 Pa:fcst time 69 hrs:from 201609051200
+353:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 40000 Pa:fcst time 69 hrs:from 201609051200
+354:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 45000 Pa:fcst time 69 hrs:from 201609051200
+355:U component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 50000 Pa:fcst time 69 hrs:from 201609051200
+356:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 55000 Pa:fcst time 69 hrs:from 201609051200
+357:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 60000 Pa:fcst time 69 hrs:from 201609051200
+358:Cloud mixing ratio:kg kg**-1 (instant):regular_ll:isobaricInhPa:level 65000 Pa:fcst time 69 hrs:from 201609051200
+359:234:234 (instant):regular_ll:isobaricInhPa:level 70000 Pa:fcst time 69 hrs:from 201609051200
+360:Absolute vorticity:s**-1 (instant):regular_ll:isobaricInhPa:level 92500 Pa:fcst time 69 hrs:from 201609051200
+361:Temperature:K (instant):regular_ll:heightAboveGround:level 100 m:fcst time 69 hrs:from 201609051200
+362:Geopotential Height:gpm (instant):regular_ll:isobaricInhPa:level 80000 Pa:fcst time 69 hrs:from 201609051200
+363:234:234 (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+364:Temperature:K (instant):regular_ll:isobaricInhPa:level 85000 Pa:fcst time 69 hrs:from 201609051200
+365:U component of wind:m s**-1 (instant):regular_ll:heightAboveSea:level 3658 m:fcst time 69 hrs:from 201609051200
+366:Temperature:K (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+367:Relative humidity:% (instant):regular_ll:isobaricInhPa:level 90000 Pa:fcst time 69 hrs:from 201609051200
+368:V component of wind:m s**-1 (instant):regular_ll:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 69 hrs:from 201609051200
+369:Potential temperature:K (instant):regular_ll:sigma:level 0.995 sigma value:fcst time 69 hrs:from 201609051200
+370:Surface pressure:Pa (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+371:Albedo:% (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+372:Volumetric soil moisture content:Proportion (instant):regular_ll:depthBelowLandLayer:levels 1.0-2.0 m:fcst time 69 hrs:from 201609051200
+373:Vertical velocity:Pa s**-1 (instant):regular_ll:isobaricInhPa:level 92500 Pa:fcst time 69 hrs:from 201609051200
+374:Geopotential Height:gpm (instant):regular_ll:potentialVorticity:level 2.147485648 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+375:Minimum temperature:K (min):regular_ll:heightAboveGround:level 2 m:fcst time 66-69 hrs (min):from 201609051200
+376:Categorical ice pellets:(Code table 4.222) (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+377:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 95000 Pa:fcst time 69 hrs:from 201609051200
+378:Wilting Point:Fraction (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+379:Total Cloud Cover:% (avg):regular_ll:unknown:level 0 214:fcst time 66-69 hrs (avg):from 201609051200
+380:V component of wind:m s**-1 (instant):regular_ll:isobaricInhPa:level 97500 Pa:fcst time 69 hrs:from 201609051200
+381:Total Cloud Cover:% (avg):regular_ll:unknown:level 0 10:fcst time 66-69 hrs (avg):from 201609051200
+382:Pressure:Pa (avg):regular_ll:unknown:level 0 223:fcst time 66-69 hrs (avg):from 201609051200
+383:234:234 (instant):regular_ll:isobaricInhPa:level 100000 Pa:fcst time 69 hrs:from 201609051200
+384:Temperature:K (avg):regular_ll:unknown:level 0 223:fcst time 66-69 hrs (avg):from 201609051200
+385:Upward short-wave radiation flux:W m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+386:Upward long-wave radiation flux:W m**-2 (avg):regular_ll:nominalTop:level 0:fcst time 66-69 hrs (avg):from 201609051200
+387:Soil Temperature:K (instant):regular_ll:depthBelowLandLayer:levels 0.4-1.0 m:fcst time 69 hrs:from 201609051200
+388:Relative humidity:% (instant):regular_ll:heightAboveGround:level 2 m:fcst time 69 hrs:from 201609051200
+389:Convective precipitation (water):kg m**-2 (accum):regular_ll:surface:level 0:fcst time 66-69 hrs (accum):from 201609051200
+390:Momentum flux, v component:N m**-2 (avg):regular_ll:surface:level 0:fcst time 66-69 hrs (avg):from 201609051200
+391:Cloud water:kg m**-2 (instant):regular_ll:unknown:level 0 200:fcst time 69 hrs:from 201609051200
+392:Pressure:Pa (avg):regular_ll:unknown:level 0 232:fcst time 66-69 hrs (avg):from 201609051200
+393:Cloud work function:J kg**-1 (avg):regular_ll:unknown:level 0 200:fcst time 66-69 hrs (avg):from 201609051200
+394:Pressure:Pa (instant):regular_ll:tropopause:level 0:fcst time 69 hrs:from 201609051200
+395:U component of wind:m s**-1 (instant):regular_ll:maxWind:level 0:fcst time 69 hrs:from 201609051200
+396:V component of wind:m s**-1 (instant):regular_ll:heightAboveGround:level 100 m:fcst time 69 hrs:from 201609051200
+397:Temperature:K (instant):regular_ll:tropopause:level 0:fcst time 69 hrs:from 201609051200
+398:Geopotential Height:gpm (instant):regular_ll:isothermZero:level 0:fcst time 69 hrs:from 201609051200
+399:Convective available potential energy:J kg**-1 (instant):regular_ll:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 69 hrs:from 201609051200
+400:U component of wind:m s**-1 (instant):regular_ll:sigma:level 0.995 sigma value:fcst time 69 hrs:from 201609051200
+401:V component of wind:m s**-1 (instant):regular_ll:potentialVorticity:level 2e-06 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+402:Vertical speed shear:s**-1 (instant):regular_ll:potentialVorticity:level 2.147485648 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+403:Vertical speed shear:s**-1 (instant):regular_ll:tropopause:level 0:fcst time 69 hrs:from 201609051200
+404:Temperature:K (instant):regular_ll:heightAboveGround:level 80 m:fcst time 69 hrs:from 201609051200
+405:U component of wind:m s**-1 (instant):regular_ll:heightAboveGround:level 80 m:fcst time 69 hrs:from 201609051200
+406:V component of wind:m s**-1 (instant):regular_ll:heightAboveSea:level 1829 m:fcst time 69 hrs:from 201609051200
+407:V component of wind:m s**-1 (instant):regular_ll:heightAboveSea:level 2743 m:fcst time 69 hrs:from 201609051200
+408:Relative humidity:% (instant):regular_ll:unknown:level 0 204:fcst time 69 hrs:from 201609051200
+409:Specific humidity:kg kg**-1 (instant):regular_ll:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 69 hrs:from 201609051200
+410:Relative humidity:% (instant):regular_ll:sigmaLayer:levels 0.33-1.0 sigma value:fcst time 69 hrs:from 201609051200
+411:Relative humidity:% (instant):regular_ll:sigmaLayer:levels 0.44-0.72 sigma value:fcst time 69 hrs:from 201609051200
+412:Land-sea mask:(0 - 1) (instant):regular_ll:surface:level 0:fcst time 69 hrs:from 201609051200
+413:Convective available potential energy:J kg**-1 (instant):regular_ll:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 69 hrs:from 201609051200
+414:Pressure:Pa (instant):regular_ll:potentialVorticity:level 2e-06 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200
+415:V component of wind:m s**-1 (instant):regular_ll:potentialVorticity:level 2.147485648 K m2 kg-1 s-1:fcst time 69 hrs:from 201609051200

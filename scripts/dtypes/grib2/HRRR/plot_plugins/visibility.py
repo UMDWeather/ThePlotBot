@@ -5,9 +5,9 @@ import scipy.ndimage as ndimage
 from scipy.ndimage.filters import minimum_filter, maximum_filter
 from mpl_toolkits.basemap import cm
 
-filename='t2'
-title ='2m Temperature (F)'
-cbarlabel = 'Degrees Fahrenheit'
+filename='visibility'
+title ='Visibility'
+cbarlabel = 'Miles'
 boundaryColor = 'black'
 frequency = 3                   # frequency in hrs
 
@@ -23,16 +23,11 @@ def plot(gribobj, pltenv):
 
     bbox = dict(boxstyle="square",ec='None',fc=(1,1,1,0.75))
 
-    grb = gribobj.select(name='2 metre temperature')[0]
-    var = (grb.values -273.15) * 1.8 + 32
-    var2 = ndimage.gaussian_filter(var,sigma=cont_smooth)
-    levels = np.arange(-100,150,cont_int)
-    levels2 = np.arange(-40,140,1)
+    grb = gribobj.select(name='Visibility')[0]
+    var = grb.values /1610. 
+    levels = np.arange(0,50,1)
 
     #P = m.contour(x,y,var2,levels=levels,colors='gray')
     #plt.clabel(P,inline=1,fontsize=10,fmt='%1.0f',inline_spacing=1)
 
-    P = m.contour(x,y,var2,levels=[32],colors='r')
-    plt.clabel(P,inline=1,fontsize=10,fmt='%1.0f',inline_spacing=1)
-
-    m.contourf(x,y,var,cmap='gist_ncar', levels=levels2, extend='both')
+    m.contourf(x,y,var,cmap='gist_ncar', levels=levels, extend='both')

@@ -5,8 +5,8 @@ import scipy.ndimage as ndimage
 from scipy.ndimage.filters import minimum_filter, maximum_filter
 from mpl_toolkits.basemap import cm
 
-filename='t2'
-title ='2m Temperature (F)'
+filename='dew2'
+title ='2m Dew Point Temperature (F)'
 cbarlabel = 'Degrees Fahrenheit'
 boundaryColor = 'black'
 frequency = 3                   # frequency in hrs
@@ -23,7 +23,7 @@ def plot(gribobj, pltenv):
 
     bbox = dict(boxstyle="square",ec='None',fc=(1,1,1,0.75))
 
-    grb = gribobj.select(name='2 metre temperature')[0]
+    grb = gribobj.select(name='2 metre dewpoint temperature')[0]
     var = (grb.values -273.15) * 1.8 + 32
     var2 = ndimage.gaussian_filter(var,sigma=cont_smooth)
     levels = np.arange(-100,150,cont_int)
