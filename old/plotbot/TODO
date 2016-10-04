@@ -1,0 +1,14 @@
+C. Martin - 5/18/2016
+Fix GFS/HRRR plotbots to work recursively?
+	The basic idea is there but the current
+	implementation uses up too much cpu
+	
+	I would create one watchdog that delegates what script runs
+	based off of what file is created
+
+	Or can I pipe the LDM data directly to a python script???
+		This would require rewriting the driver scripts for plots but
+		is probably more efficient. Ask T.Sluka/D.T.Kleist about which
+		would be better (this would not archive data, but may be tricky
+		to accomplish what we want for model output, probably the way to
+		go for sat/rad though...

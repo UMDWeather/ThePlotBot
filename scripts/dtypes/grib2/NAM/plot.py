@@ -76,9 +76,9 @@ for d in domains:
     ax=fig.add_axes([0.03,0.1,0.94,0.8])
     pltenv['ax']=ax
     #annotations, boundaries, etc
-    ax.annotate('init:  '+inittime.strftime('%Y-%m-%d %HZ'),xy=(1,1.03),fontsize=9,
+    ax.annotate('init:  '+inittime.strftime('%Y-%m-%d %HZ'),xy=(1,1.05),fontsize=15,
               xycoords="axes fraction", horizontalalignment='right')
-    ax.annotate('valid: '+validtime.strftime('%Y-%m-%d %HZ'),xy=(1,1.01),fontsize=9,
+    ax.annotate('valid: '+validtime.strftime('%Y-%m-%d %HZ'),xy=(1,1.01),fontsize=15,
               xycoords="axes fraction", horizontalalignment='right')
     ax.annotate('University of Maryland Dept. of Atmospheric and Oceanic Science',
               xy=(1.01,0), xycoords=('axes fraction'),rotation=90,horizontalalignment='left',verticalalignment='bottom',

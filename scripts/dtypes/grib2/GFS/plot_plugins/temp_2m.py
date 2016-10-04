@@ -27,7 +27,8 @@ def plot(gribobj, pltenv):
     var = (grb.values -273.15) * 1.8 + 32
     var2 = ndimage.gaussian_filter(var,sigma=cont_smooth)
     levels = np.arange(-100,150,cont_int)
-    levels2 = np.arange(-40,140,1)
+    #levels2 = np.arange(-40,140,1)
+    levels2 = np.arange(0,120,1)
 
     P = m.contour(x,y,var2,levels=levels,colors='black')
     plt.clabel(P,inline=1,fontsize=10,fmt='%1.0f',inline_spacing=1)

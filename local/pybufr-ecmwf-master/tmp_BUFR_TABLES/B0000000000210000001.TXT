@@ -1,0 +1,1 @@
+/usr/lib64/python2.7/site-packages/pybufr_ecmwf/ecmwf_bufrtables/B0000000000098013001.TXT
